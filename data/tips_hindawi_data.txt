@@ -1,0 +1,111 @@
+
+Tips Hindawi – Company & Internship Knowledge File
+=================================================
+
+Company Overview
+----------------
+Company Name: Tips Hindawi
+Industry: AI Education & Practical Training
+Founded: 2025
+Location: Cairo, Egypt
+
+Description:
+Tips Hindawi is an AI-focused educational and training platform that provides hands-on learning experiences for students and beginners interested in Artificial Intelligence, Machine Learning, and Generative AI. The company focuses on bridging the gap between academic learning and real market requirements by offering project-based training and internships.
+
+Mission:
+Empower students and fresh graduates with practical AI skills, real-world projects, and strong portfolios that prepare them for the job market.
+
+Technologies & Topics Covered
+-----------------------------
+- Python for AI
+- Machine Learning fundamentals
+- Deep Learning basics
+- Natural Language Processing (NLP)
+- Generative AI & Large Language Models (LLMs)
+- Embeddings & Vector Databases (FAISS)
+- RAG (Retrieval-Augmented Generation)
+- LangChain
+- Streamlit for AI apps
+- FastAPI for backend APIs
+- AI Project Deployment
+- Resume Parsing & Analysis
+- PDF Q&A Chatbots
+- Video & Text Summarization Systems
+
+Internship Program – Details
+-----------------------------
+Internship Type:
+Practical AI Internship (Online / Hybrid – depends on program announcement)
+
+Internship Goals:
+- Help students apply AI concepts in real projects
+- Build strong portfolio-ready AI applications
+- Prepare students for AI roles such as AI Engineer, ML Engineer, or Data Scientist (Junior level)
+
+What Students Learn During the Internship
+------------------------------------------
+- How to think like an AI engineer
+- Data preprocessing and cleaning
+- Building ML and NLP models
+- Working with LLMs and prompt engineering
+- Creating RAG-based chatbots
+- Using embeddings for semantic search
+- Building AI web apps using Streamlit
+- Connecting AI models with APIs using FastAPI
+- Deploying AI systems
+- Working on real use-case projects
+
+What Interns Can Build by the End
+---------------------------------
+- AI Chatbot for documents (PDF Q&A)
+- Resume Analyzer and Skill Matcher
+- Text & Video Summarizer
+- Internal Knowledge Assistant (RAG system)
+- End-to-end AI web applications
+- GitHub portfolio with real projects
+
+Benefits for Students
+---------------------
+- Practical hands-on experience
+- Strong AI project portfolio
+- Better understanding of real market needs
+- Improved problem-solving skills
+- Preparation for AI interviews
+- Confidence to apply for junior AI roles or freelancing
+
+Internship Duration
+-------------------
+- Typically ranges from 4 to 8 weeks
+- Includes weekly tasks and milestones
+- Project-based evaluation instead of exams
+
+Internship Structure
+--------------------
+- Introduction & AI foundations
+- Weekly learning sessions
+- Hands-on tasks and assignments
+- Real project implementation
+- Final project submission and review
+
+How to Apply for the Internship
+-------------------------------
+- Follow Tips Hindawi on LinkedIn and Facebook
+- Internship announcements are posted on their social media pages
+- Application usually includes:
+  - Google Form submission
+  - Basic personal and educational information
+  - Motivation to join the internship
+- Selected candidates are contacted for onboarding
+
+Social Media
+------------
+LinkedIn: https://www.linkedin.com/company/tipshindawi/
+Facebook: https://www.facebook.com/profile.php?id=61578139928388
+
+Usage in AI Chatbot
+-------------------
+This file can be used as a knowledge source for:
+- Company information chatbot
+- Internship FAQ chatbot
+- Student guidance assistant
+- RAG-based internal knowledge system

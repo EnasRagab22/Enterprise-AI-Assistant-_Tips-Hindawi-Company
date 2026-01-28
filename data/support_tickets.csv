@@ -1,0 +1,11 @@
+ticket_id,question,answer
+101,How to reset my password?,Follow the password reset guide in IT docs.
+102,How to apply for leave?,Submit leave request through HR portal.
+103,VPN connection issue,Check VPN settings and contact IT if issue persists.
+104,Accessing HR portal,Ensure your account is active and use your credentials.
+105,Request software installation,Fill out the software request form and get manager approval.
+106,Unable to access shared drive,Check network permissions and folder access settings.
+107,Email account not syncing,Verify email settings and reconnect your account.
+108,Forgot VPN password,Reset VPN password using the IT portal.
+109,How to submit expense report?,Submit via the finance portal and attach receipts.
+110,Request for new hardware,Fill out the hardware request form and get manager approval.

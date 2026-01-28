@@ -1,0 +1,12 @@
+
+IT Guidelines:
+1. Password must be changed every 90 days.
+2. VPN must be used for remote access.
+3. All software installations must be approved by IT department.
+4. Company devices must have antivirus installed and updated.
+5. Data backups should be done weekly and stored securely.
+6. Multi-factor authentication must be enabled for all accounts.
+7. Use encrypted storage for sensitive documents.
+8. Do not share passwords with anyone.
+9. IT tickets must be logged for any hardware issues.
+10. Follow IT guidelines for company-provided mobile devices.
