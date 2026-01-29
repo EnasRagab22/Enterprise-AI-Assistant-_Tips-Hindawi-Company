@@ -309,16 +309,18 @@ with col_left:
 
         st.success(f"✅ Answer generated successfully in {result['response_time']:.2f}s!")
 
-# Example Questions - العمود اليمين
+
 with col_right:
    st.markdown("### 📝 Examples")
 
    examples = [
     ("🏢", "What is Tips Hindawi company?"),
     ("📚", "What do students learn during internship?"),
+    ("🏠", "هل يمكنني العمل عن بعد؟"),
     ("📅", "How many annual leave days?"),
-    ("🏠", "What is the remote work policy?"),
+    ("🔐", "متي يجب تغيير كلمة المرور؟"),
     ("🤒", "When can I take sick leave?"),
+    
    ]
 
    for idx, (emoji, text) in enumerate(examples):
