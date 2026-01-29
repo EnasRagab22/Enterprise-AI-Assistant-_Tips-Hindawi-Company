@@ -9,6 +9,13 @@
 [![LangChain](https://img.shields.io/badge/LangChain-0.1-1C3C3C?logo=chainlink&logoColor=white)](https://langchain.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+<p align="center">
+  <img src="demo-screenshot.png" alt="Enterprise AI Assistant Demo" width="100%">
+</p>
+
+<p align="center">
+  <em>Beautiful, modern UI with AI-powered assistant for Tips Hindawi Company</em>
+</p>
 ---
 
 ## 📋 Table of Contents
