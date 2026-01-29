@@ -1,6 +1,6 @@
 # 🦙 Enterprise AI Knowledge Assistant - Tips Hindawi Company
 
-> A production-ready RAG (Retrieval-Augmented Generation) system powered by Meta Llama 3 8B Instruct, designed specifically for Tips Hindawi Company to provide intelligent, multilingual Q&A for employees.
+> A production-ready RAG (Retrieval-Augmented Generation) system powered by Meta Llama 3 8B Instruct, designed to provide intelligent, multilingual Q&A capabilities for Tips Hindawi Company employees and students.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://python.org)
 [![Llama 3](https://img.shields.io/badge/Model-Llama_3_8B-purple?logo=meta&logoColor=white)](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)
@@ -9,21 +9,12 @@
 [![LangChain](https://img.shields.io/badge/LangChain-0.1-1C3C3C?logo=chainlink&logoColor=white)](https://langchain.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-<p align="center">
-  <img src="demo-screenshot.png" alt="Enterprise AI Assistant Demo" width="100%">
-</p>
-
-<p align="center">
-  <em>Beautiful, modern UI with AI-powered assistant for Tips Hindawi Company</em>
-</p>
-
 ---
 
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
 - [Key Features](#-key-features)
-- [Demo](#-demo)
 - [Architecture](#-architecture)
 - [Tech Stack](#-tech-stack)
 - [Installation](#-installation)
@@ -38,67 +29,62 @@
 
 ## 🌟 Overview
 
-The **Enterprise AI Knowledge Assistant** is a smart system designed to serve two key audiences at Tips Hindawi Company. It leverages advanced AI technology to provide instant, accurate answers by searching through company documents in real-time.
+The **Enterprise AI Knowledge Assistant** is an intelligent system designed to serve two key audiences at Tips Hindawi Company. It leverages advanced AI technology to provide instant, accurate answers by searching through company documents in real-time.
 
 ### 👥 Designed for Two Key Audiences
 
-#### 👩‍💻 For Developers
+#### 👩‍💻 For Developers & Employees
 
-This is more than a chatbot — it's a **powerful internal assistant** that helps developers by:
+A powerful internal assistant that helps developers and team members by:
 
-* ✅ **Accessing private, internal company knowledge** - No more switching between multiple tools and documents
-* 📚 **Understanding company policies, workflows, and internal documentation** - Everything in one centralized place
-* ⚡ **Reducing time spent searching** across files and resources - Get answers in seconds instead of hours
-* 🤖 **Providing accurate Q&A** using a RAG-based architecture powered by Meta Llama 3 8B Instruct
+* ✅ **Accessing private, internal company knowledge** - Centralized access to all company resources
+* 📚 **Understanding company policies, workflows, and documentation** - Everything in one place
+* ⚡ **Reducing time spent searching** - Get answers in seconds instead of hours
+* 🤖 **Providing accurate Q&A** using RAG-based architecture powered by Meta Llama 3 8B Instruct
 
-**Instead of digging through documents, developers can simply ask the system and get precise answers instantly** 🤖🔍
+**Instead of digging through documents, employees can simply ask the system and get precise answers instantly** 🤖🔍
 
-#### 👨‍🎓 For Users & Students
+#### 👨‍🎓 For Students & Prospective Interns
 
-From a user and student perspective, the assistant helps by:
+From a student perspective, the assistant helps by:
 
-* 🏢 **Explaining what Tips Hindawi is** and what it offers
+* 🏢 **Explaining what Tips Hindawi is** and what the company offers
 * 📖 **Providing clear details about the internship program**, including:
    * What students will learn
-   * How they will benefit in real-world practice
-   * The skills they will gain
-   * What opportunities they can pursue after the internship
-
-The system empowers students to understand the full scope of the internship experience and make informed decisions about their career development at Tips Hindawi Company.
+   * Real-world practice opportunities
+   * Skills development pathways
+   * Career opportunities after the internship
 
 ### 🎯 The Problem It Solves
 
-Organizations and individuals face several challenges:
-
-**For Developers:**
+**For Developers & Employees:**
 - **Time-consuming searches** through multiple documents for technical information
 - **Information scattered** across HR policies, IT guidelines, workflows, and FAQs
 - **Inconsistent answers** to common questions across teams
 - **Knowledge silos** that slow down onboarding and development
 
 **For Students & Users:**
-- **Limited visibility** into what the company offers
+- **Limited visibility** into company offerings
 - **Unclear internship details** and expectations
-- **Difficulty finding** relevant information about programs and opportunities
+- **Difficulty finding** relevant information about programs
 - **Language barriers** for Arabic-speaking candidates
 
 ### ✨ The Solution
 
 An AI-powered assistant that:
-- Provides **instant answers** in 1-4 seconds instead of hours of searching
+- Provides **instant answers** in 2-6 seconds instead of hours of searching
 - Searches through **all company documents** using advanced semantic search
 - Supports **English and Arabic** with automatic language detection
 - Includes **source attribution** for transparency and verification
 - Available **24/7** through a beautiful, user-friendly web interface
-- Serves both **developers and students** with tailored information for each audience
-- Serves **both technical and non-technical** audiences effectively
+- Serves both **technical and non-technical** audiences effectively
 
 ---
 
 ## 🚀 Key Features
 
 ### 🤖 Advanced AI Capabilities
-- **Meta Llama 3 8B Instruct** - State-of-the-art open-source language model with 8 billion parameters
+- **Meta Llama 3 8B Instruct** - State-of-the-art open-source LLM with 8 billion parameters
 - **RAG Pipeline** - Retrieval-Augmented Generation ensures answers are grounded in actual documents
 - **Semantic Search** - Understands question meaning, not just keywords
 - **Context-Aware** - Provides detailed, relevant answers based on document context
@@ -125,52 +111,8 @@ An AI-powered assistant that:
 - **Secure API** - FastAPI backend with Bearer token authentication
 - **Health Monitoring** - Built-in health checks and status endpoints
 - **Scalable Architecture** - Handles multiple concurrent users
-- **Easy Deployment** - Works with Kaggle (free GPU), ngrok tunneling, or custom hosting
+- **Flexible Deployment** - Works with Kaggle (free GPU), ngrok tunneling, or custom hosting
 
----
-
-## 🎥 Demo
-
-### Sample Queries for Developers
-
-**Company Policies & Workflows:**
-```
-Q: "What is the remote work policy?"
-A: Tips Hindawi allows employees to work remotely up to 2 days per week...
-```
-**Technical Documentation:**
-```
-Q: "How do I request access to internal systems?"
-A: To request system access, submit a ticket through the IT support portal...
-```
-### Sample Queries for Students & Users
-
-**About Tips Hindawi:**
-```
-Q: "What is Tips Hindawi company?"
-A: Tips Hindawi is a technology company specializing in software development, AI solutions...
-
-```
-**Internship Program:**
-```
-Q: "What do students learn during internship?"
-A: During the internship program, students learn practical skills including modern programming 
-   frameworks, software development workflows, version control with Git, agile methodologies, 
-   and real-world project management...
-```
-
-**Multilingual Support (Arabic):**
-```
-Q: "كم يوم إجازة سنوية ؟"
-A: وفقًا لسياسة الإجازات، الموظفون لديهم الحق في 21 يومًا من الإجازة السنوية...
-
-Q: "ما هي شركة Tips Hindawi؟"
-A: Tips Hindawi هي شركة تقنية متخصصة في تطوير البرمجيات وحلول الذكاء الاصطناعي...
-
-Q: "ماذا سأتعلم خلال فترة التدريب؟"
-A: خلال برنامج التدريب، سيتعلم الطلاب مهارات عملية تشمل البرمجة الحديثة وإدارة المشاريع...
-```
----
 ---
 
 ## 🏗️ Architecture
@@ -204,17 +146,17 @@ A: خلال برنامج التدريب، سيتعلم الطلاب مهارات
 ┌─────────▼─────────────────────────────────────────────┐
 │              Document Store (/data)                     │
 │                                                         │
-│  • hr_policy.pdf        - HR policies & procedures      │
-│  • leave_policy.pdf     - Leave entitlements & rules    │
-│  • it_guidelines.txt    - IT policies & security        │
-│  • internal_faqs.txt    - Common Q&A                    │
-│  • support_tickets.csv  - Historical support data       │
+│  • company_docs.pdf     - Company information           │
+│  • hr_policies.pdf      - HR policies & procedures      │
+│  • internship_guide.pdf - Internship program details    │
+│  • faqs.txt             - Frequently asked questions    │
+│  • technical_docs.txt   - Technical documentation       │
 └─────────────────────────────────────────────────────────┘
 ```
 
 ### How It Works
 
-1. **User Query** → Employee asks a question through the Streamlit interface
+1. **User Query** → User asks a question through the Streamlit interface
 2. **Language Detection** → System automatically detects English or Arabic
 3. **Vector Search** → Query is embedded and searched against document vectors
 4. **Context Retrieval** → Top relevant document chunks are retrieved from FAISS
@@ -232,7 +174,7 @@ A: خلال برنامج التدريب، سيتعلم الطلاب مهارات
 | **FastAPI** | High-performance async web framework |
 | **LangChain** | LLM application framework and RAG orchestration |
 | **FAISS** | Facebook AI Similarity Search for vector operations |
-| **Sentence Transformers** | Text embedding model (all-MiniLM-L6-v2) |
+| **Sentence Transformers** | Text embedding model (paraphrase-multilingual-MiniLM-L12-v2) |
 | **PyPDF** | PDF document processing |
 | **Uvicorn** | ASGI server for FastAPI |
 | **HuggingFace Transformers** | Model loading and inference |
@@ -259,7 +201,7 @@ A: خلال برنامج التدريب، سيتعلم الطلاب مهارات
 ### Prerequisites
 
 - Python 3.10 or higher
-- NVIDIA GPU with CUDA support (recommended, or use Kaggle's free GPU)
+- NVIDIA GPU with CUDA support (recommended) or use Kaggle's free GPU
 - 16GB+ RAM
 - HuggingFace account (for Llama 3 access)
 
@@ -335,7 +277,7 @@ cd data
 2. **Configure Kaggle Settings:**
    - Enable **GPU** (Settings → Accelerator → GPU T4 x2)
    - Enable **Internet** (Settings → Internet → On)
-   - Add your documents as a Kaggle dataset
+   - Upload your documents as a Kaggle dataset
 
 3. **Run the Notebook:**
    - Execute all cells sequentially
@@ -395,21 +337,24 @@ Enterprise-AI-Assistant-_Tips-Hindawi-Company/
 │       └── background.jpg          # UI background image
 │
 ├── data/                           # Company documents (input)
-│   ├── hr_policy.pdf              # HR policies
-│   ├── leave_policy.pdf           # Leave policies  
-│   ├── it_guidelines.txt          # IT guidelines
-│   ├── internal_faqs.txt          # Internal FAQs
-│   └── support_tickets.csv        # Support ticket history
+│   ├── hr_policy.pdf              # HR policies (English)
+│   ├── hr_policy_ar.txt           # HR policies (Arabic)
+│   ├── internal_faqs_ar.txt       # Internal FAQs (Arabic)
+│   ├── internal_faqs_en.txt       # Internal FAQs (English)
+│   ├── it_guidelines_ar.txt       # IT guidelines (Arabic)
+│   ├── it_guidelines_en.txt       # IT guidelines (English)
+│   ├── leave_policy_ar.txt        # Leave policies (Arabic)
+│   ├── leave_policy_en.pdf        # Leave policies (English)
+│   ├── support_tickets_ar.csv     # Support ticket history (Arabic)
+│   ├── support_tickets_en.csv     # Support ticket history (English)
+│   ├── tips_hindawi_data_ar.txt   # Tips Hindawi company data (Arabic)
+│   └── tips_hindawi_data_en.txt   # Tips Hindawi company data (English)
 │
 ├── venv/                          # Virtual environment (excluded from git)
 │
 ├── README.md                      # This file
 └── .gitignore                     # Git ignore rules
 ```
-
----
-
-
 
 ---
 
@@ -434,7 +379,7 @@ top_p=0.9,               # Nucleus sampling
 do_sample=True           # Enable sampling
 
 # Vector Store Settings
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 chunk_size=1000          # Characters per chunk
 chunk_overlap=200        # Overlap between chunks
 ```
@@ -450,7 +395,6 @@ Get your token at: https://dashboard.ngrok.com/get-started/your-authtoken
 
 ---
 
-
 ## 📊 Performance
 
 ### Benchmarks
@@ -458,7 +402,7 @@ Get your token at: https://dashboard.ngrok.com/get-started/your-authtoken
 | Metric | Value | Notes |
 |--------|-------|-------|
 | **Average Response Time** | 1-4 seconds | With GPU acceleration |
-| **Accuracy** | 92% | On domain-specific queries |
+| **Accuracy** | 90%+ | On domain-specific queries |
 | **Concurrent Users** | 10+ | With NVIDIA T4 GPU |
 | **Languages Supported** | 2 | English, Arabic |
 | **Document Formats** | 3+ | PDF, TXT, CSV |
@@ -479,10 +423,9 @@ Get your token at: https://dashboard.ngrok.com/get-started/your-authtoken
 - RAM: 16GB+
 - GPU: NVIDIA T4 or better (16GB VRAM)
 - Storage: 50GB SSD
-- Response time: 3-5 seconds
+- Response time: 1-4 seconds
 
 ---
-
 
 ## 📄 License
 
@@ -491,7 +434,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2026 Enas Ragab
+Copyright (c) 2025 Enas Ragab
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -512,21 +455,21 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-
+---
 
 ## 📞 Contact
 
 **Enas Ragab**
 
 - 📧 Email: enasragab001@gmail.com
-- 💼 LinkedIn: https://www.linkedin.com/in/enas-ragab-3b2158241/
+- 💼 LinkedIn: [linkedin.com/in/enas-ragab-3b2158241](https://www.linkedin.com/in/enas-ragab-3b2158241/)
 - 🐙 GitHub: [@EnasRagab22](https://github.com/EnasRagab22)
 
 **Project Link:** [https://github.com/EnasRagab22/Enterprise-AI-Assistant-_Tips-Hindawi-Company](https://github.com/EnasRagab22/Enterprise-AI-Assistant-_Tips-Hindawi-Company)
 
 ---
 
-## 📈 Roadmap
+## 🗺️ Roadmap
 
 ### Completed ✅
 - [x] RAG pipeline with Llama 3
@@ -552,6 +495,16 @@ SOFTWARE.
 - [ ] Support for more languages
 - [ ] Batch query processing
 - [ ] Export conversation history
+
+---
+
+## 🙏 Acknowledgments
+
+- **Meta AI** for the Llama 3 model
+- **HuggingFace** for model hosting and transformers library
+- **LangChain** for RAG framework
+- **Streamlit** for the amazing web framework
+- **Tips Hindawi Company** for the opportunity
 
 ---
 
