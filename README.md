@@ -158,6 +158,19 @@ A: During the internship program, students learn practical skills including mode
    frameworks, software development workflows, version control with Git, agile methodologies, 
    and real-world project management...
 ```
+
+**Multilingual Support (Arabic):**
+```
+Q: "كم يوم إجازة سنوية ؟"
+A: وفقًا لسياسة الإجازات، الموظفون لديهم الحق في 21 يومًا من الإجازة السنوية...
+
+Q: "ما هي شركة Tips Hindawi؟"
+A: Tips Hindawi هي شركة تقنية متخصصة في تطوير البرمجيات وحلول الذكاء الاصطناعي...
+
+Q: "ماذا سأتعلم خلال فترة التدريب؟"
+A: خلال برنامج التدريب، سيتعلم الطلاب مهارات عملية تشمل البرمجة الحديثة وإدارة المشاريع...
+```
+---
 ---
 
 ## 🏗️ Architecture
